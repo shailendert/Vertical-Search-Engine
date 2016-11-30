@@ -25,7 +25,7 @@ When large parts of the Internet were essentially invisible to search engines â€
 Search engines usually use keywords and metadata to provide a more useful vocabulary for Internet or onsite searching
 Search engine indexing collects, parses, and stores data to facilitate fast and accurate information retrieval. 
 The purpose of storing an index is to optimize speed and performance in finding relevant documents for a search query.
-	      Indexed documents are then stored in databases.
+Indexed documents are then stored in databases.
 
 (3)	Retrieval or Searching: When user input any text for searching, that  keyword is searched from database where condensed summary of web pages are stored
 After finding entered keyword relative webpages, page rank algorithm is implemented on those web pages.
