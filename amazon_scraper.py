@@ -33,7 +33,7 @@ def AmzonParser(url):
                 ORIGINAL_PRICE = SALE_PRICE
  
             if page.status_code!=200:
-                raise ValueError('error')
+                raise ValueError('error!!!')
             data = {
                     'NAME':NAME,
                     'SALE_PRICE':SALE_PRICE,
