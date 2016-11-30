@@ -1,17 +1,19 @@
 # Vertical-Search-Engine
 
-What is a Vertical Search Engine?
+#What is a Vertical Search Engine?
+
 A vertical search engine as distinct from a general web search engine focuses on a specific segment of online content. They are also called specialty or topical search engines. The vertical content area may be based on topicality, media type, or genre of content
 As people explore the options provided by Google, they quickly move out of the search engine and visit topical sites – such as Best Buy or Apple – and carry out specific searches. Although the initial search activity often originates in Google, a majority of the follow-up searches – “specific searches” – have shifted to vertical and topical sites.
 Specific searches are also becoming more popular with the rise of smartphones
 
-IMPORTANCE OF VERTICAL SEARCH ENGINE OVER OTHER SEARCH ENGINES
+#IMPORTANCE OF VERTICAL SEARCH ENGINE OVER OTHER SEARCH ENGINES
+
 Vertical search offers several potential benefits over general search engines:
 •	Greater precision due to limited scope,
 •	Leverage domain knowledge including taxonomies and ontologies,
 •	Support of specific unique user tasks.
 
-WORKING:-
+#WORKING:-
 (1)	CRAWLING: Web Crawlers such as “spider”, “bot” etc. are used for crawling. Web Crawlers are a program or automated script which browses the World Wide Web in a methodical, automated manner.
 Crawling is never ending process.
 Crawler module extracts data and key information from each page.
@@ -27,7 +29,7 @@ The purpose of storing an index is to optimize speed and performance in finding 
 After finding entered keyword relative webpages, page rank algorithm is implemented on those web pages.
 The page having highest rank is showed as first website of search result page.
 
-TYPES OF WEB CRAWLER: 
+#TYPES OF WEB CRAWLER: 
 (1)	Distributed Crawler: Many crawlers are working to distribute in the process of web crawling, in order to have the most coverage of the web.
  A central server manages the communication and synchronization of the nodes, as it is geographically distributed.
 It basically uses Page rank algorithm for its increased efficiency and quality search.
