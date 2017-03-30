@@ -17,8 +17,6 @@ field_type = 'Text'
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()  
 
-conn.commit()
-#conn.close()
 
 def new_table():
     c.execute('CREATE TABLE {tn} ({nf} {ft})'\
@@ -32,3 +30,6 @@ def new_table():
           .format(tn=table_name, cn=col4, ct=field_type))
     c.execute("ALTER TABLE {tn} ADD COLUMN '{cn}'{ct}"\
           .format(tn=table_name, cn=col5, ct=field_type))
+
+    conn.commit()
+#conn.close()
