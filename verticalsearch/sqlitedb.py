@@ -31,5 +31,5 @@ def new_table():
     c.execute("ALTER TABLE {tn} ADD COLUMN '{cn}'{ct}"\
           .format(tn=table_name, cn=col5, ct=field_type))
 
-    conn.commit()
+conn.commit()
 #conn.close()
